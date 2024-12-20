@@ -1,0 +1,20 @@
+html, body, div, span,  iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, del,em, img, s, small, strong, 
+sub, sup, tt,b, u, i, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend,
+table, tr, th, td,
+article, aside, details, footer, header, 
+nav, section, summary, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: Arial;
+    /* box-sizing: border-box; */
+}
+body {line-height: 1}
+ol, ul {list-style: none}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

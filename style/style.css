@@ -1,0 +1,264 @@
+.container{width: 1180px; margin: auto;}
+
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    border-bottom: solid 1px #e5e8ec;
+    
+    a, p{
+        text-decoration: none;
+        font: 600 14.4px arial;
+        color: #021523;
+    }
+}
+
+.main-header-left{
+    display: flex;
+    justify-content: space-between;
+    width: 218px;
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.main-header-right{
+    display: flex;
+    justify-content: space-between;
+    width: 519px;
+}
+
+.sign-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    i{
+        width: 26px;
+        height: 26px;
+    }
+
+    p{
+        font: 600 11.2px arial;
+        color: #C1C1C1;
+    }
+
+    span{
+        font: 400 12.8px arial;
+        color: black;
+    }
+}
+
+.lang-aze{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-sales{
+    padding: 10px 20px;
+    border: 1px solid #3c1e6e;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.header-sales:hover{
+    background-color: #3c1e6e;
+    color: #fff;
+    border: solid 1px #3c1e6e;
+}
+
+.header-phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang-aze{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    height: 35px;
+    position: relative;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+
+    p{
+        padding-left: 5px;
+    }
+
+    i{
+        width: 8px;
+        height: 8px;
+    }
+}
+
+/*header sticky*/
+
+.header-sticky{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.kataloq-input{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 700px;
+
+    input{
+        width: 540px;
+        border-radius: 10px;
+        border: solid 1px #e5e8ec;
+        
+    }
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 176px;
+
+    i{
+        width: 27px;
+        height: 27px;
+    }
+}
+
+.sebet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        font: 400 11.2px arial;
+        color: #C1C1C1;
+    }
+}
+
+
+
+.header-logo{
+    width: 240px;
+    height: 40px;
+}
+
+
+
+
+
+/*kataloq*/
+.btn {
+    cursor: pointer;
+    border: 2px solid #3c1e6e;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3c1e6e;
+    color: white;
+    width: 100px;
+    height: 20px;
+    transition: .4s;
+    position: relative;
+
+    a{
+        text-decoration: none;
+    }
+
+    li{
+        list-style: none;
+    }
+}
+
+.kataloq-name{
+    text-align: center;
+}
+
+.hoveredMenu1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 300px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: purple;
+
+    .hoveredMenu1 {
+        display: block;
+    }
+
+}
+
+.hoveredMenu1 menu {
+
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    li {
+        padding: 15px 10px;
+
+        a {
+            color: #021523;
+        }
+    }
+
+    li:hover {
+        background-color: #021523;
+
+        a {
+            color: white !important;
+        }
+
+    }
+}
+
+.menuLink {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu2 {
+    position: absolute;
+    display: none;
+    width: 300px;
+    top: 0;
+    padding-left: 20px;
+    bottom: 0;
+
+    ul {
+        height: 100%;
+        background-color: #fff;
+    }
+}
+
+#menu1 li:hover {
+
+    .menu2 {
+        display: block;
+        left: 100%;
+        top: 0;
+    }
+}
+
+/*main*/
+
+main{
+    height: 800px;
+    position: relative;
+}
